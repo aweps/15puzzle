@@ -39,7 +39,7 @@ RUN curl --silent -o - "https://caddyserver.com/api/download?os=linux&arch=amd64
 RUN chmod 0755 /usr/bin/caddy
 
 COPY --from=webdev /src/build/web /srv/www
-COPY --from=webdev /src/build/app/outputs/apk/release/app-release.apk /srv/android
+#COPY --from=webdev /src/build/app/outputs/apk/release/app-release.apk /srv/android
 COPY Caddyfile /etc/
 
 EXPOSE 80 443
