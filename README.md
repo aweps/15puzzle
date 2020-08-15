@@ -2,22 +2,22 @@ Game of Fifteen
 ==========
 
 <img alt="Main screen: Light" align="right" height="400"
-   src="https://github.com/AChep/15puzzle/raw/master/screenshots/screenshot2.jpg" />
+   src="https://github.com/aweps/15puzzle/raw/master/screenshots/screenshot2.jpg" />
 
 <img alt="Main screen: Dark" align="right" height="400"
-   src="https://github.com/AChep/15puzzle/raw/master/screenshots/screenshot1.jpg" />
+   src="https://github.com/aweps/15puzzle/raw/master/screenshots/screenshot1.jpg" />
 
 *Puzzle game with Flutter?*
 
 The Game of Fifteen (also called 15-puzzle, Gem Puzzle, Boss Puzzle, Mystic Square and many others) is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. 
 
-<a href="https://play.google.com/store/apps/details?id=com.artemchep.fifteenpuzzle">
+<a href="https://play.google.com/store/apps/details?id=com.webkrux.fifteenpuzzle">
   <img alt="Get Game of Fifteen on Google Play" vspace="20"
        src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="60" />
 </a>
 <a href="http://artemchep.com/15puzzle/">
   <img alt="Try online" vspace="20"
-       src="https://github.com/AChep/15puzzle/raw/master/artwork/web_badge.png" height="60" />
+       src="https://github.com/aweps/15puzzle/raw/master/artwork/web_badge.png" height="60" />
 </a>
 
 Report a bug or request a feature
@@ -57,3 +57,4 @@ For more information on SemVer, please visit http://semver.org/.
 [2]: https://github.com/AChep/15puzzle/issues?state=open
 [3]: https://github.com/AChep/15puzzle/issues?state=closed
 [4]: https://github.com/AChep/15puzzle/blob/master/LICENSE
+

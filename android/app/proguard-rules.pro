@@ -7,7 +7,7 @@
 -keep class io.flutter.plugins.**  { *; }
 
 # Plugins
--keep class com.artemchep.flutter.**  { *; }
+-keep class com.webkrux.flutter.**  { *; }
 
 # Coroutines
 -keepnames class kotlinx.coroutines.internal.MainDispatcherFactory {}

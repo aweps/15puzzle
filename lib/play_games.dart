@@ -43,7 +43,7 @@ class PlayGamesContainer extends StatefulWidget {
 
 class _PlayGamesContainerState extends State<PlayGamesContainer> {
   static const playGames =
-      const MethodChannel('com.artemchep.flutter/google_play_games');
+      const MethodChannel('com.webkrux.flutter/google_play_games');
 
   bool isSupported = false;
 

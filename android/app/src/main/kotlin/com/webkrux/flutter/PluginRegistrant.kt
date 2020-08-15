@@ -1,6 +1,6 @@
-package com.artemchep.flutter
+package com.webkrux.flutter
 
-import com.artemchep.flutter.gpg.PlayGamesPlugin
+import com.webkrux.flutter.gpg.PlayGamesPlugin
 import io.flutter.plugin.common.PluginRegistry
 import io.flutter.plugins.GeneratedPluginRegistrant
 

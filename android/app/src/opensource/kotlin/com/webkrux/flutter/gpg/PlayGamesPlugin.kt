@@ -1,4 +1,4 @@
-package com.artemchep.flutter.gpg
+package com.webkrux.flutter.gpg
 
 import android.content.Intent
 import android.util.Log
@@ -33,7 +33,7 @@ class PlayGamesPlugin(
         private const val COMMAND_IS_SUPPORTED = "isSupported"
 
         fun registerWith(registrar: PluginRegistry.Registrar) {
-            val channel = MethodChannel(registrar.messenger(), "com.artemchep.flutter/google_play_games")
+            val channel = MethodChannel(registrar.messenger(), "com.webkrux.flutter/google_play_games")
             channel.setMethodCallHandler(PlayGamesPlugin(registrar))
         }
     }

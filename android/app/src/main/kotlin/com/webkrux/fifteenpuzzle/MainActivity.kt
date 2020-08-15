@@ -1,8 +1,8 @@
-package com.artemchep.fifteenpuzzle
+package com.webkrux.fifteenpuzzle
 
 import android.os.Bundle
-import com.artemchep.flutter.gpg.PlayGamesPlugin
-import com.artemchep.flutter.registerWith
+import com.webkrux.flutter.gpg.PlayGamesPlugin
+import com.webkrux.flutter.registerWith
 
 import io.flutter.app.FlutterActivity
 import io.flutter.plugins.GeneratedPluginRegistrant

@@ -21,7 +21,7 @@ jobs:
 
       - name: Sync Tags
         run: |
-          git remote add fork https://x-access-token:${PA_TOKEN}@github.com/AChep/15puzzle.git
+          git remote add fork https://x-access-token:${PA_TOKEN}@github.com/aweps/15puzzle.git
           for TAG in $(comm -23 <(git ls-remote --tags fork | grep -v '\^{}' | grep -v '-' | awk '{print $2}') <(git ls-remote --tags origin | grep -v '\^{}' | awk '{print $2}')); do
             git fetch fork $TAG:$TAG --no-tags
             TAG=$(echo $TAG | sed 's/refs\/tags\///')
