@@ -15,7 +15,7 @@ if ! type pod; then
   sudo gem install cocoapods
 fi
 
-FLUTTER_VER=1.17.2
+FLUTTER_VER=1.20.2
 
 if [[ ! -d ~/flutter ]]; then
 
@@ -34,4 +34,3 @@ pushd ${GITHUB_WORKSPACE:-.}
 flutter doctor
 flutter build ios --release --no-codesign --dart-define=${DART_DEFINES:-}
 popd
-
