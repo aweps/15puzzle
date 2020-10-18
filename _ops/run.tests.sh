@@ -4,6 +4,6 @@ set -Eeuo pipefail
 
 source _ops/get-deps.sh
 
-dartanalyzer ./
+dartanalyzer ./ --fatal-infos --fatal-warnings
 
-flutter test || :
+flutter test
