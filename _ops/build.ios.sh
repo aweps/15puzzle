@@ -15,7 +15,7 @@ if ! type pod; then
   sudo gem install cocoapods
 fi
 
-FLUTTER_VER=1.20.2
+FLUTTER_VER=1.17.2
 
 if [[ ! -d ~/flutter ]]; then
 
@@ -25,6 +25,8 @@ if [[ ! -d ~/flutter ]]; then
 	rm -rf flutter_macos_${FLUTTER_VER}-stable.zip
 
 	export PATH="$PATH:~/flutter/flutter/bin"
+	flutter channel beta
+	flutter upgrade
 	flutter precache
 	popd
 fi
